@@ -214,7 +214,13 @@
     </div>
   {% endif %}
 </section>
-
+<style>
+  .button-shop-{{section.id}}:hover{
+    background : {{section.settings.color_hover_button}} !important;
+    border-color : {{section.settings.color_hover_button}} !important;
+    color : {{section.settings.color_hover_text}} !important;
+  }
+</style>
 <script>
   jQuery(document).ready(function($) {
 
