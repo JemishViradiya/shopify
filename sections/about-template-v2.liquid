@@ -30,8 +30,15 @@
             {% endif %}
 
             {% if section.settings.button_about_top != blank %}
-              <a class="button-shop list-inline-item mr-0" href="{{section.settings.link_abouttop}}">
-                {{ section.settings.button_about_top }}
+              <a
+                class="button-main2 button-shop-{{section.id}}  animated"
+                href="{{section.settings.block_buton}}"
+                style="
+                  color:{{section.settings.color_block_button}};
+                  border-color : {{section.settings.color_block_button}}
+                "
+              >
+                {{ section.settings.block_buton }}
               </a>
             {% endif %}
           </div>
