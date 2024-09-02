@@ -4907,10 +4907,10 @@
           "image_store4": "shopify:\/\/shop_images\/B4-660-600.png",
           "urlimage_store4": "shopify:\/\/collections\/all",
           "enable_address": false,
-          "block_buton": "Shop now",
+          "block_buton": "Explore Now",
           "color_block_button": "#000000",
-          "color_hover_button": "#fff",
-          "color_hover_text": "#000"
+          "color_hover_button": "#e5b790",
+          "color_hover_text": "#000000"
         }
       },
       "FAQ-template-v1": {
